@@ -1,0 +1,122 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #FFF;
+    font-family: 'Kaushan Script', cursive;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+    background-color: darkturquoise;
+}
+
+.nav-container {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #FFF;
+    transition: color 0.4s;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f79a34;
+}
+
+.slider {
+    background: url("https://ep01.epimg.net/elpais/imagenes/2018/03/01/album/1519910473_492871_1519910821_noticia_normal.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.land {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.land h1 {
+    color: #FFF;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.yellow-word {
+    color: #f79a34;
+}
+
+.land h4 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.icons-container {
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.land i {
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.button-area {
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+#button1{
+    background: darkturquoise;
+}
+
+#button2 {
+    background:#f79a34;
+}
